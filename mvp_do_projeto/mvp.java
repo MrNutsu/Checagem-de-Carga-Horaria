@@ -1,3 +1,4 @@
+//pacote que permite o uso de delay
 package com.journaldev.threads;
 import java.util.Scanner;
 
@@ -28,8 +29,9 @@ public class mvp {
         Thread.sleep(1500);
 
         System.out.println("\n");
-        String quatroCasas = String.format("%.2f", cargaHoraria);
-        System.out.println("Carga Horaria: " + quatroCasas);
+        //quatro casos e o padrao em DB, preferi utilizar aq tbm
+        String quatroCasas = String.format("%.4f", cargaHoraria);
+        System.out.println("Carga Horaria: " + quatroCasas + " horas.");
     }
 
     public static double calculaCargaHoraria(int numeroAula, int quantidadeSemana){
