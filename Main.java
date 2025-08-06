@@ -49,12 +49,29 @@ public class Main {
         System.out.println(course.getName() + ": " + workload + " hours\n");
     }
 
-    int typeWorkLoad = 0;
     System.out.println("\n=== Carga Horária por Tipos ===");
+    //Utilizado para amarzenar valores em pares, neste caso uma String e um double
+    HashMap<String, Double> typeWorkLoad = new HashMap<>();
     for(Course course : courseList){
-
-        typeWorkLoad += LoadCalculator.calculateWorkLoad(course.getType());
         
+        //amarzena o tipo do curso atual no loop
+        String type = course.getType();
+        //calcula a carga de treabalho para o tipo atual
+        double workLoad = LoadCalculator.calculateWorkLoad(course);
+
+        //checa se o tipo atual ja passou pelo loop, true se sim
+        if(typeWorkLoad.containsKey(type)){
+            //se ja visto adiciona o total de horas para o hashmap
+            typeWorkLoad.put(type, typeWorkLoad.get(type) + workLoad);
+        }else{
+            // se nao, cria um novo
+            typeWorkLoad.put(type, workLoad);
+        }
+
+    }
+
+    for(String type : typeWorkLoad.keySet()){
+        System.out.println(type + ": " + typeWorkLoad + " horas");
     }
 
     int totalWorkLoad = 0;
