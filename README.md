@@ -92,10 +92,6 @@ Este sistema resolve todos esses problemas, proporcionando:
 - [ ] Relatórios detalhados
 - [ ] Configuração de diferentes fórmulas de cálculo
 
-## 📞 Contato
-
-Desenvolvido por um estudante comprometido com a melhoria dos processos acadêmicos através da tecnologia.
-
 ---
 
 *"A tecnologia deve servir para simplificar nossa vida, não complicá-la."* 🎓
