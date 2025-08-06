@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 import model.Course;
+import service.LoadCalculator;
+//permite calcular a carga horaria pelo tipo
+import java.util.HashMap;
 
 public class Main {
     
@@ -37,10 +40,31 @@ public class Main {
                 courseList.add(courses);
 
             }
-
-            
+        
         }
         
+    System.out.println("\n=== Carga Horária Individual ===");
+    for(Course course : courseList) {
+        double workload = LoadCalculator.calculateWorkLoad(course);
+        System.out.println(course.getName() + ": " + workload + " hours\n");
+    }
+
+    int typeWorkLoad = 0;
+    System.out.println("\n=== Carga Horária por Tipos ===");
+    for(Course course : courseList){
+
+        typeWorkLoad += LoadCalculator.calculateWorkLoad(course.getType());
         
+    }
+
+    int totalWorkLoad = 0;
+    System.out.println("\n=== Carga Horária Total do Semestre ===");
+    for(Course course : courseList){
+
+       totalWorkLoad += LoadCalculator.calculateWorkLoad(course);
+       
+    }
+    System.out.println("Carga Horária Total: " + totalWorkLoad + "horas");
+
     }
 }
