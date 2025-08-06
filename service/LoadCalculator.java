@@ -2,7 +2,7 @@ package service;
 import model.Course;
 
 public class LoadCalculator {
-
+ 
     public static double calculateWorkLoad(Course course){
         return course.getWeeklyClasses() * 0.8333 * course.getAcademicWeeks();
 

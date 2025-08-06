@@ -1,7 +1,7 @@
 package model;
 
 public class Course {
-
+    
     private int weeklyClasses;
     private int academicWeeks;
     private String name;
