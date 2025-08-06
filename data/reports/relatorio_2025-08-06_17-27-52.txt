@@ -1,0 +1,35 @@
+============================================================
+    RELATÓRIO DE CARGA HORÁRIA ACADÊMICA
+============================================================
+Data/Hora: 06/08/2025 17:27:52
+Total de Cursos: 11
+
+CARGA HORÁRIA INDIVIDUAL:
+----------------------------------------
+FECN                      | GES      |  2 aulas/sem | 20 semanas |   33.33 h
+GSTM                      | GES      |  2 aulas/sem | 20 semanas |   33.33 h
+ADMP                      | GES      |  3 aulas/sem | 20 semanas |   50.00 h
+GSTF                      | GES      |  1 aulas/sem | 20 semanas |   16.67 h
+GSTP                      | GES      |  3 aulas/sem | 20 semanas |   50.00 h
+OGPL                      | GES      |  3 aulas/sem | 20 semanas |   50.00 h
+LEGE                      | GES      |  2 aulas/sem | 20 semanas |   33.33 h
+LOGT                      | GES      |  2 aulas/sem | 20 semanas |   33.33 h
+GSTQ                      | GES      |  2 aulas/sem | 20 semanas |   33.33 h
+PROI                      | GES      |  3 aulas/sem | 20 semanas |   50.00 h
+Opitativa - LIBI          | LIB      |  2 aulas/sem | 20 semanas |   33.33 h
+
+CARGA HORÁRIA POR TIPO:
+----------------------------------------
+GES       :  383.32 horas
+LIB       :   33.33 horas
+
+CARGA HORÁRIA TOTAL: 416.65 horas
+
+ESTATÍSTICAS ADICIONAIS:
+----------------------------------------
+Média de horas por curso: 37.88 h
+Tipos de curso diferentes: 2
+Curso com maior carga: ADMP (50.00 h)
+
+============================================================
+Relatório gerado pelo Sistema de Checagem de Carga Horária
